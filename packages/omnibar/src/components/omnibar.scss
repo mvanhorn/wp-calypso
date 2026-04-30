@@ -11,11 +11,6 @@ $omnibar-highlight-color: #7b90ff;
 
 .omnibar {
 	--omnibar-height: #{$omnibar-height-mobile};
-
-	@media ( min-width: 782px ) {
-		--omnibar-height: #{$omnibar-height};
-	}
-
 	background-color: $omnibar-base-color;
 	min-height: var( --omnibar-height );
 	height: var( --omnibar-height );
@@ -24,6 +19,10 @@ $omnibar-highlight-color: #7b90ff;
 	margin: 0;
 	font-size: $omnibar-font-size;
 	line-height: var( --omnibar-height );
+
+	@media ( min-width: 782px ) {
+		--omnibar-height: #{$omnibar-height};
+	}
 
 	.omnibar__secondary {
 		display: flex;
