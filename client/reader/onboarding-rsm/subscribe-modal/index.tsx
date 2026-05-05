@@ -14,7 +14,7 @@ import { trackScrollPage } from 'calypso/reader/controller-helper';
 import { READER_ONBOARDING_TRACKS_EVENT_PREFIX } from 'calypso/reader/onboarding-rsm/constants';
 import { curatedBlogs } from 'calypso/reader/onboarding-rsm/curated-blogs';
 import { StepIndicator } from 'calypso/reader/onboarding-rsm/step-indicator';
-import Stream from 'calypso/reader/stream-v2';
+import Stream from 'calypso/reader/stream';
 import { useDispatch, useStore } from 'calypso/state';
 import { isCurrentUserEmailVerified } from 'calypso/state/current-user/selectors';
 import { requestFollows } from 'calypso/state/reader/follows/actions';
